@@ -11,3 +11,10 @@ def command_exit():
 def take_command():
     cmd = input("\n> ")
     eval(f"command_{cmd}()")
+
+
+print("Welcome to GitLine")
+command_help()
+
+while True:
+    take_command()
